@@ -25,7 +25,13 @@
     </main>
 
     <load src="./partials/footer.html" />
+    <div class="cookie-popup" id="cookiePopup">
+      <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="cookies.html">Cookie политике</a>.</p>
+      <button class="btn btn--header btn--xs" id="acceptCookies">OK</button>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script type="module" src="./main.js"></script>
     <script>
       lucide.createIcons();
